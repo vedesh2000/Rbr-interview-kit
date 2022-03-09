@@ -1,1 +1,3 @@
-return a.values()
+
+    console.log(count);
+    return check;
