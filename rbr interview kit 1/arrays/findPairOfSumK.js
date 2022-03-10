@@ -9,14 +9,15 @@ var findPair = function (b, target) {
     b.forEach((z) => {
         if (foo[target - z] === 1) {
             res[i] = { first: z, second: (target - z) };
-            foo[target - z] = 0;
+            foo[z] = 0;
         }
+        console.log(foo);
         i++;
     })
-    console.log(foo);
+    
 
     res.forEach((x) => {
         console.log(x.first + " " + x.second);
     });
 }
-findPair([1, 2, 3, 4, 5, 6, 7, 8, 9, 0], 10);
+findPair([1, 2, 3, 4, 8, 9, 0], 10);
