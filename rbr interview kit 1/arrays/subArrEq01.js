@@ -1,3 +1,4 @@
+//equal 0 , 1 subarray
 eq01SubArr = (arr) => {
     var n = arr.length;
     var sum = 0;
