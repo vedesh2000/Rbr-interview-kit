@@ -30,7 +30,7 @@ int main()
     {
         cin >> arr[i];
     }
-    int res = binarySearch(arr, 0, n, 5);
+    int res = binarySearch(arr, 0, n-1, 5);
     if (res == -1)
     {
         cout << "not found";
