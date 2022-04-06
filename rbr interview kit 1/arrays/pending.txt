@@ -1,0 +1,3 @@
+38. sliding window
+40. tree implement
+60.nearly sorted(not implemented)
