@@ -1,4 +1,4 @@
-//Linear approach
+//Linear approach where more than half elements are same
 var majority = function (arr) {
     var size = arr.length;
     var occ = Math.floor(size / 2) + 1;

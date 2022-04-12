@@ -6,4 +6,4 @@ def duplicates(arr):
         else:
             print(abs(arr[i]))
     print(arr)
-duplicates([1,2,2,3,4,7,4,1])
+duplicates([1,2,2,3,4,7,8,7,4,1])

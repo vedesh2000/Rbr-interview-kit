@@ -1,4 +1,4 @@
-def numTriangles(arr):
+def least_Num(arr):
     arr.sort()
     np = 1
     for i in range(0, len(arr)):
@@ -9,8 +9,7 @@ def numTriangles(arr):
             np+=arr[i]
             print(np , arr[i])
         
-
     return 0
 
 
-print("Smallest number that is not possible to get is " , numTriangles([4,13,2,3,1]))
+print(least_Num([4,13,2,3,1]))
