@@ -20,3 +20,4 @@ def next(val):
     
     return int(ans)
 print(next(int(218765)))
+#258761
